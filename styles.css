@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 body {
     margin: 0;
 }
@@ -28,8 +28,6 @@ body {
 .pageHeader .logo{
     color: #F9FAF8;
     font-size: 24px;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
 }
@@ -46,15 +44,11 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 .leftPart p{
     color: #E5E7EB;
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 .leftPart button{
@@ -63,12 +57,43 @@ body {
     border-radius: 10px;
     padding: 4px 28px;
     font-weight: bold;
-    color: #F9FAF8;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    color: #F9FAF8; 
     font-family: 'Roboto', sans-serif;
     background-color: #3882F6
 }
 .firstPart .rightPart img{
     margin-left: 25px;
+}
+.middleInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middleInformation h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+.middleInformation ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.middleInformation ul li{
+    text-align: center;
+    margin: 5px 25px;
+    width: 165px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.middleInformation ul li img{
+    border: solid 5px #3882F6;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+.middleInformation ul li p{
+    color: #626363;
+    margin-top: 3px;
 }
