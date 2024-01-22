@@ -124,3 +124,51 @@ body {
     font-weight: bold;
     text-align: center;
 }
+.bottomPart{
+    padding: 100px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.bottomButon{
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 130px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+}
+.bottomButon button{
+    border: none;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 25px;
+    color: #F9FAF8;
+    border: solid 2px white;
+}
+.text h3{
+    font-family: 'Roboto', sans-serif; 
+    color: #E5E7EB;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.text p{
+    font-family: 'Roboto', sans-serif; 
+    color: #E5E7EB;
+    margin-top: 0px;
+    font-size: 17px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB;
+    background-color: #1F2937;
+    padding: 50px 0px;  
+    font-family: 'Roboto', sans-serif; 
+}
+
