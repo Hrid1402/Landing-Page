@@ -113,12 +113,12 @@ body {
     font-size: 36px;
     font-family: 'Roboto', sans-serif; 
     font-style: italic;
-    padding: 0px 500px;
+    width: 780px;
     text-align: center;
 }
 .quote .author{
     margin-top: 0px;
-    padding-left: 610px;
+    padding-left: 580px;
     font-size: 27px;
     font-family: 'Roboto', sans-serif; 
     font-weight: bold;
