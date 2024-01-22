@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
 body {
     margin: 0;
 }
@@ -30,6 +31,7 @@ body {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
+    
 }
 
 .firstPart{
@@ -96,4 +98,29 @@ body {
 .middleInformation ul li p{
     color: #626363;
     margin-top: 3px;
+}
+.quote{
+    margin-top: 100px;
+    display: flex;
+    background-color: #E5E7EB;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote .theQuote{
+    margin-top: 90px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif; 
+    font-style: italic;
+    padding: 0px 500px;
+    text-align: center;
+}
+.quote .author{
+    margin-top: 0px;
+    padding-left: 610px;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    text-align: center;
 }
